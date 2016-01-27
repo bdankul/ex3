@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+* {margin: 0;padding: 0;}
+
+body {
+    font-family: monospace;
+    background-color: #b8b3c2;
+    color: #292439;
+}
+h1 {
+    font-size: 2.4em;
+}
+h6 {
+    visibility: hidden;
+}
+
+/* right side header, date, list */
+aside {
+    position: fixed;
+    right: 10%;
+    top: 10%;
+    font-family: 'muli', sans-serif;
+}
+header {
+    font-family: 'montserrat', sans-serif;
+}
+#date {
+    margin: 10px;
+    font-size: 18px;
+}
+table {
+    border-left:solid #ebeaea 1px;
+    padding-left: 20px;
+}
+td {
+    padding-left: 7px;
+}
+
+/* list category colors */
+.food {
+    color: #a87882;
+}
+.bike {
+    color: #645b67;
+}
+.game {
+    color: #9bc4b4;
+}
+.work {
+    color: #9cadd3;
+}
+
+/* thought bubble nav */
+nav {
+    position: absolute;
+    left: 60px;
+    bottom: 260px;
+}
+nav div {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    visibility: hidden;
+}
+nav div#bike { 
+    position: relative;
+    top: 60px;
+    left: 40px;
+}
+nav div#food { 
+    position: relative;
+    left: 15px;
+}
+nav div#game { 
+    position: relative;
+    top: 70px;
+    right: 40px;
+}   
+
+
+/* position head at bottom */
+section img#head {
+    position: absolute;
+    bottom: 0px;
+    left: 180px;
+}
+
