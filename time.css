@@ -4,9 +4,11 @@
 
 body {
     font-family: monospace;
-    background-color: #b8b3c2;
+    background-color: #c7d3e5;
     color: #292439;
 }
+
+/* light bl c7d3e5*/
 h1 {
     font-size: 2.4em;
 }
@@ -76,7 +78,9 @@ nav div#game {
     top: 70px;
     right: 40px;
 }   
-
+.toggle {
+    visibility: visible;
+}
 
 /* position head at bottom */
 section img#head {
