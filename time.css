@@ -89,3 +89,5 @@ section img#head {
     left: 180px;
 }
 
+tr:hover {opacity: .5;}
+
