@@ -95,3 +95,30 @@ section img#head {
 
 tr:hover {color: orange;}
 
+
+footer {
+    width: 150px;
+    height: auto;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: #5b6576;
+}
+footer a:link {
+    color: #e2e6eb;
+    text-decoration: none;
+}
+footer a:visited {
+    color: #e2e6eb;
+}
+footer a:hover {
+    color: #f7db68;
+}
+
+div#validate {
+    font-size: .7em;
+    margin-top: 5px;
+}

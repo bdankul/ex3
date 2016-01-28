@@ -18,7 +18,7 @@ $(document).ready(function () {
                 $('section nav div').css('visibility', 'hidden');
                 return false;
             }); //end head hover
-    
+
         //click head image all bubbles visible
         $('section img#head').click(
             function () {
@@ -32,8 +32,13 @@ $(document).ready(function () {
             function () {
                 $('aside table, h3#date').css('visibility', 'visible');
             });
+    
         console.log("js ready 2");
-
+    
+        // click header hide table event
+        $('header h1').click(function () {
+            $('h3#date, table').css('visibility', 'hidden');
+        }); // end click header
 
         // bike list trigger bubble
         $('table tr.bike').hover(
@@ -95,4 +100,5 @@ $(document).ready(function () {
 
         console.log("js ready 3");
         return false;
+
     }) //end ready
