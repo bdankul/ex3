@@ -31,14 +31,15 @@ header {
     font-size: 18px;
 }
 table {
-    border-left:solid #ebeaea 1px;
     padding-left: 20px;
+    color: #31414e;
+    visibility: hidden;
 }
 td {
     padding-left: 7px;
 }
 
-/* list category colors */
+/* list category colors 
 .food {
     color: #a87882;
 }
@@ -50,7 +51,7 @@ td {
 }
 .work {
     color: #9cadd3;
-}
+} */
 
 /* thought bubble nav */
 nav {
@@ -78,8 +79,8 @@ nav div#game {
     top: 70px;
     right: 40px;
 }   
-.toggle {
-    visibility: visible;
+#toggleOff {
+    visibility: hidden;
 }
 
 /* position head at bottom */
