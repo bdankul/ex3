@@ -29,6 +29,7 @@ header {
 #date {
     margin: 10px;
     font-size: 18px;
+    visibility: hidden;
 }
 table {
     padding-left: 20px;
@@ -64,6 +65,7 @@ nav div {
     height: auto;
     display: inline-block;
     visibility: hidden;
+    opacity: 0.6;
 }
 nav div#bike { 
     position: relative;
@@ -79,8 +81,9 @@ nav div#game {
     top: 70px;
     right: 40px;
 }   
-#toggleOff {
-    visibility: hidden;
+#toggleOn {
+    visibility: visible;
+    opacity: 1;
 }
 
 /* position head at bottom */
@@ -90,5 +93,5 @@ section img#head {
     left: 180px;
 }
 
-tr:hover {opacity: .5;}
+tr:hover {color: orange;}
 

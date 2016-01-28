@@ -7,7 +7,7 @@ $(document).ready(function () {
         console.log("js ready 1");
 
         //change nav div img opacity to start
-        $('section nav div').css('opacity', '0.4');
+        //$('section nav div').css('opacity', '0.4');
 
         //hover over head image to bring up all bubbles
         $('section img#head').hover(
@@ -30,7 +30,7 @@ $(document).ready(function () {
 
         $('section img#head').click(
             function () {
-                $('aside table').css('visibility', 'visible');
+                $('aside table, h3#date').css('visibility', 'visible');
             });
         console.log("js ready 2");
 
